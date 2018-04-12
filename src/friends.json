@@ -2,81 +2,97 @@
   {
     "id": 1,
     "image": "http://www.pngmart.com/files/4/Mickey-Mouse-PNG-HD.png",
+    "name": "Mickey Mouse",
     "clicked": false
   },
   {
     "id": 2,
     "image": "https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Cartoons-PNG/Donald_Duck_Free_PNG_Clip_Art_Image.png?m=1507172104",
+    "name":"Donald Duck",
     "clicked": false
   },
   {
     "id": 3,
     "image": "https://vignette.wikia.nocookie.net/disney/images/b/b8/Dumbo.png/revision/latest?cb=20130616171220",
+    "name": "Dumbo",
     "clicked": false
   },
   {
     "id": 4,
     "image": "https://vignette.wikia.nocookie.net/disney/images/6/67/Daisy_Duck_transparent.png/revision/latest?cb=20160508175748",
+    "name": "Daisy Duck",
     "clicked": false
   },
   {
     "id": 5,
     "image": "https://vignette.wikia.nocookie.net/disney/images/e/eb/Cinderella_2.png/revision/latest?cb=20141123094041",
+    "name": "Cinderella",
     "clicked": false
   },
   {
     "id": 6,
     "image": "http://www.pngmart.com/files/4/Snow-White-PNG-Photos.png",
+    "name": "Snow White",
     "clicked": false
   },
   {
     "id": 7,
     "image": "https://vignette.wikia.nocookie.net/disney/images/6/69/Ariel_in_shell.png/revision/latest?cb=20140127063634",
+    "name": "Ariel",
     "clicked": false
   },
   {
     "id": 8,
     "image": "https://vignette.wikia.nocookie.net/disney/images/e/e1/Coco-miguel3.png/revision/latest?cb=20180123074308",
+    "name": "Miguel",
     "clicked": false
   },
   {
     "id": 9,
     "image": "https://vignette.wikia.nocookie.net/disney/images/2/27/Goofy_transparent.png/revision/latest?cb=20170426165903",
+    "name": "Goofy",
     "clicked": false
   },
   {
     "id": 10,
     "image": "https://vignette.wikia.nocookie.net/disney/images/3/35/Beauty_and_strong_Belle.png/revision/latest?cb=20161003204852",
+    "name": "Belle",
     "clicked": false
   },
   {
     "id": 11,
     "image": "https://vignette.wikia.nocookie.net/mario-sonic-and-sora/images/4/4a/Aladdin_KHREC.png/revision/latest?cb=20130613183445",
+    "name": "Aladdin",
     "clicked": false
   },
   {
     "id": 12,
     "image": "https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Cartoons-PNG/Princess_Jasmine_PNG_Cartoon_Image.png?m=1439520901",
+    "name": "Jasmine",
     "clicked": false
   },
   {
     "id": 13,
     "image": "https://clipart.info/images/ccovers/1495815249starwars-lego-clip-art-cartoon-png.png",
+    "name": "Darth Vader",
     "clicked": false
   },
   {
     "id": 14,
     "image": "https://orig00.deviantart.net/7f2f/f/2017/015/7/d/princess_leia_chibi_by_xhellonikkix-davjxm4.png",
+    "name": "Princess Leia",
     "clicked": false
   },
   {
     "id": 15,
     "image": "https://pre00.deviantart.net/c066/th/pre/i/2016/354/9/6/jyn_erso_star_wars_rogue_one_by_evanattard-das8zzb.png",
+    "name": "Jyn Erso",
     "clicked": false
   },
   {
     "id": 16,
     "image": "https://orig00.deviantart.net/3f7c/f/2012/293/a/7/lil_boba_fett_icon_by_humphreysir-d5icop6.png",
+    "name": "Boba Fett",
     "clicked": false
   }
 ]
