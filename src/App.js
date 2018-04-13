@@ -17,12 +17,13 @@ class App extends Component {
       <Wrapper>
         <Nav score={this.state.score} highScore={this.state.highScore} />
           <GameInstructions />
-        {this.state.friends.map(friend => {
-          return <FriendCard
+        {this.state.friends.map(friend => (
+           <FriendCard
           {...friend}
           key={friend.id}
+          name={friend.name}
           />
-        })}
+        ))}
       </Wrapper>
     );
   }
