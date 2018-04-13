@@ -4,8 +4,8 @@ import "./Nav.css";
 const Nav = props => (
     <nav className="navbar navbar-default">
         <ul>
-           <li className="brand">Clicky with REACT game!</li>
-           <li>Click on an image to start the game</li>
+           <li className="brand">Clicky with REACT!</li>
+           <li>Click an image to start the game</li>
            <li>Current Score: {props.score} || Highest Score: {props.highScore}</li>
         </ul>
     </nav>
