@@ -11,7 +11,7 @@ class App extends Component {
   state = {
     score: 0,
     highScore: 0,
-    friends: friends
+    friends
   };
 
   randomRender = id => {
@@ -65,7 +65,7 @@ class App extends Component {
 
   winning = () => {
     if (this.state.score === this.state.friends.length) {
-      alert("YOU WIN!! congratulations!");
+      alert("You Win!! Congratulations!");
       this.setState({});
       this.resetGame();
     } else {
