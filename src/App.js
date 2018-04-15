@@ -76,7 +76,7 @@ class App extends Component {
 
   resetGame = () => {
     this.state.friends.forEach(image => {
-      image.cliked = false;
+      image.clicked = false;
     });
     this.setState({ score: 0 });
   };
