@@ -2,7 +2,9 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://phild6596.github.io/clicky-game",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-scripts": "1.1.4"
@@ -11,11 +13,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "description": "For this assignment, I'll create a memory game with React. This assignment will require me to break up my application's UI into components, manage component state, and respond to user events.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phild6596/clicky-game.git"
@@ -24,6 +30,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/phild6596/clicky-game/issues"
-  },
-  "homepage": "https://github.com/phild6596/clicky-game#readme"
+  }
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import FriendCard from "./components/FriendCard";
 import Nav from "./components/Nav";
 import GameInstructions from "./components/GameInstructions";
-//import Modal from "./components/Modal";
 import Wrapper from "./components/Wrapper";
 import friends from "./friends.json";
 import './App.css';
@@ -65,7 +64,7 @@ class App extends Component {
 
   winning = () => {
     if (this.state.score === this.state.friends.length) {
-      alert("You Win!! Congratulations!");
+      alert("You Win! You've set a new high score!");
       this.setState({});
       this.resetGame();
     } else {
@@ -91,8 +90,6 @@ class App extends Component {
           return <FriendCard
           {...friend}
             key={friend.id}
-            //name={friend.name}
-            //image={friend.image}
             randomRender={this.randomRender}
             randomOrganize={() => this.randomOrganize(this.state.friends)}
           />
